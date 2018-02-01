@@ -12,6 +12,8 @@
    Use Xray_train_p3.py to train the dense121 network.
 3. Network prediction.
 
+   cam.ipynb is the primitive code for showing the prediction result. Would be fined later.
+
 4. Reference
 
    The images and Data_Entry_2017.csv could be downloaded at https://nihcc.app.box.com/v/ChestXray-NIHCC .
