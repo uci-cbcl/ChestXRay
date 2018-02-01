@@ -12,7 +12,7 @@
    Use Xray_train_p3.py to train the dense121 network.
 3. Network prediction.
 
-   cam.ipynb is the primitive code for showing the prediction result. Would be fined later.
+   cam.ipynb is the primitive code for showing the prediction result. Would be refined later.
 
 4. Reference
 
