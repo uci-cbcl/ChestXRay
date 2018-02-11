@@ -18,8 +18,10 @@
 3. Heatmap.
 
    cam.ipynb is the primitive code for showing the prediction result. Would be refined later.
+   
+4. Results
 
-4. Reference
+5. Reference
 
    The images and Data_Entry_2017.csv could be downloaded at https://nihcc.app.box.com/v/ChestXray-NIHCC .
    
