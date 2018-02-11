@@ -17,7 +17,7 @@
    
 3. Heatmap.
 
-   cam.ipynb is the primitive code for showing the prediction result. Would be refined later.
+   cam.ipynb is the primitive code for showing the prediction result. Would be refined later.
 
 4. Reference
 
