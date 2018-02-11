@@ -12,9 +12,11 @@
    Use Xray_train.py to train the dense121 network.
    
 3. Valadation
+
    Run validation.py.
 
 4. Test
+
    Run test.py.
    
 3. Network prediction.
