@@ -7,16 +7,12 @@
    split_step1_p3.py is used to split the data in Data_Entry_2017.csv to 3 datasets, generating train.csv (70%), val.csv (10%) and test.csv (20%).
    
    split_step2_p3.py is only used for upsampling the data in train.csv, resulting in resample_train.csv.
-2. Network training.
+2. Network training, validation and test.
 
    Use Xray_train.py to train the dense121 network.
    
-3. Valadation
-
    Run validation.py and pick the best trained model according to the AUROC.
-
-4. Test
-
+   
    Run test.py to get the AUROC on the test dataset.
    
 3. Heatmap.
