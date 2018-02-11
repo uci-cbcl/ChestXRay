@@ -21,7 +21,7 @@
    
 4. Results
 
-Class    |  Pathology | Standford |Our implement
+Class    |Pathology |Standford |Our implement
 ------------ | ------------- |--------------|------------
 0|Atelectasis |   0.8209 |0.8104 
 1|Cardiomegaly |   0.9048 |**0.9085**
