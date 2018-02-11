@@ -13,13 +13,13 @@
    
 3. Valadation
 
-   Run validation.py.
+   Run validation.py and pick the best trained model according to the AUROC.
 
 4. Test
 
-   Run test.py.
+   Run test.py to get the AUROC on the test dataset.
    
-3. Network prediction.
+3. Heatmap.
 
    cam.ipynb is the primitive code for showing the prediction result. Would be refined later.
 
