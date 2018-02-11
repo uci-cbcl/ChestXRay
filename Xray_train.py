@@ -178,7 +178,7 @@ def train_model(model, optimizer, num_epochs=50):
     
     # nProcessed = 0
     nTrain = len(trainLoader.dataset)
-    for epoch in range(16,num_epochs):
+    for epoch in range(num_epochs):
         print('Epoch {}/{}'.format(epoch, num_epochs - 1))
         print('-' * 10)
         running_loss = 0.0
@@ -225,8 +225,8 @@ if __name__ == "__main__":
     densenet = densenet.cuda()
     densenet = DataParallel(densenet)
     
-    with open(weight_dir+'densenet_epoch_15.pkl','rb') as f:
-        densenet = pickle.load(f)
+    #with open(weight_dir+'densenet_epoch_15.pkl','rb') as f:
+    #    densenet = pickle.load(f)
     
     parameter=0
     for param in densenet.parameters():
