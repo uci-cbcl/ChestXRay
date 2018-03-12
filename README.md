@@ -21,22 +21,22 @@
    
 4. Results
 
-Class    |Pathology |Standford |Our implement
------------- | ------------- |--------------|------------
-0|Atelectasis |   0.8209 |0.8104 
-1|Cardiomegaly |   0.9048 |**0.9085**
-2|Consolidation |  0.7939 |0.7932
-3|Edema|   0.8932 |0.8894
-4|Effusion |   0.8831 |**0.8863**
-5|Emphysema |   0.9260 |0.9041
-6|Fibrosis |   0.8044 |**0.8288**
-7|Hernia |   0.9387 |**0.9659**
-8|Infiltration |   0.7204 |0.7024
-9|Mass |  0.8618 |0.8611
-10|Nodule |  0.7766 |0.7687
-11|Pleural Thickening |   0.8138 |0.8010
-12|Pneumonia |  0.7632 |0.7597
-13|Pneumothorax |   0.8932 |0.8787
+Class    |Pathology |Standford |Our implement |new results
+------------ | ------------- |--------------|-------------|------------
+0|Atelectasis |   0.8209 |0.8104 | 0.8035
+1|Cardiomegaly |   0.9048 |**0.9085** |0.8838
+2|Consolidation |  0.7939 |0.7932|0.7921
+3|Edema|   0.8932 |0.8894|0.8807
+4|Effusion |   0.8831 |**0.8863**|0.8706
+5|Emphysema |   0.9260 |0.9041|0.8704
+6|Fibrosis |   0.8044 |**0.8288**|0.8031
+7|Hernia |   0.9387 |**0.9659**|0.9114
+8|Infiltration |   0.7204 |0.7024|0.7057
+9|Mass |  0.8618 |0.8611|0.8498
+10|Nodule |  0.7766 |0.7687|0.7651
+11|Pleural Thickening |   0.8138 |0.8010|0.7803
+12|Pneumonia |  0.7632 |0.7597|0.7512
+13|Pneumothorax |   0.8932 |0.8787|0.8706
 
 5. Reference
 
