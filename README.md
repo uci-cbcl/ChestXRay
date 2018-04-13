@@ -1,8 +1,9 @@
 # ChestXRay
 
+1. Instruction
 Before runing the codes, please read the file named "Instruction".
    
-4. Results
+2. Results
 
 Class    |Pathology |Standford |Our implement
 ------------ | ------------- |--------------|------------
@@ -21,7 +22,7 @@ Class    |Pathology |Standford |Our implement
 12|Pneumonia |  0.7632 |0.7597
 13|Pneumothorax |   0.8932 |0.8787
 
-5. Reference
+3. Reference
 
    The images and Data_Entry_2017.csv could be downloaded at https://nihcc.app.box.com/v/ChestXray-NIHCC .
    
