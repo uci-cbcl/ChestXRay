@@ -2,7 +2,7 @@
 
 1. Instruction
 
-   Before runing the codes, please read the file named "Instruction".
+   Before runing the codes, please read the file named "Instructions".
    
 2. Results
 
