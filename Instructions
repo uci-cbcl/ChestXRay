@@ -11,7 +11,7 @@ Image titles and labels are initially saved in the csv file, Data_Entry_2017.csv
 Run split_step1_p3.py to split the data in Data_Entry_2017.csv to 3 datasets, generating train.csv (70%), val.csv (10%) and test.csv (20%).
 
 If you want to unsample some classes in the training dataset, run split_step2_p3.py. A new file named "resample_train.csv" would be generated.
-
+In the reported performance, we didn't perform the upsampling.
 
 3. Training.
 In "Xray_train.py", set variables "label_dir", "image_dir" and "weight_dir" to appropriate path. "lable_dir" is where the .csv files are saved. "image_dir" is where the folder "images" locates. "weight_dir" is where the trained neural network weights to be saved.
