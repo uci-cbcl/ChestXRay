@@ -25,5 +25,5 @@ Class    |Pathology |Standford |Our implement
 
 3. Reference
 
-   The images and Data_Entry_2017.csv could be downloaded at https://nihcc.app.box.com/v/ChestXray-NIHCC .
+   The images, Data_Entry_2017.csv and papers could be downloaded at https://nihcc.app.box.com/v/ChestXray-NIHCC .
    
