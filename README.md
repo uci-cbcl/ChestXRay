@@ -1,25 +1,10 @@
 # ChestXRay
 
-1. Dataset splitting.
+1. Instruction
 
-   Image titles and labels are initially saved in the csv file, Data_Entry_2017.csv.
+   Before runing the codes, please read the file named "Instructions".
    
-   split_step1_p3.py is used to split the data in Data_Entry_2017.csv to 3 datasets, generating train.csv (70%), val.csv (10%) and test.csv (20%).
-   
-   split_step2_p3.py is only used for upsampling the data in train.csv, resulting in resample_train.csv.
-2. Network training, validation and test.
-
-   Use Xray_train.py to train the dense121 network.
-   
-   Run validation.py and pick the best trained model according to the AUROC.
-   
-   Run test.py to get the AUROC on the test dataset.
-   
-3. Heatmap.
-
-   cam.ipynb is the primitive code for showing the prediction result. Would be refined later.
-   
-4. Results
+2. Results
 
 Class    |Pathology |Standford |Our implement
 ------------ | ------------- |--------------|------------
@@ -38,7 +23,7 @@ Class    |Pathology |Standford |Our implement
 12|Pneumonia |  0.7632 |0.7597
 13|Pneumothorax |   0.8932 |0.8787
 
-5. Reference
+3. Reference
 
-   The images and Data_Entry_2017.csv could be downloaded at https://nihcc.app.box.com/v/ChestXray-NIHCC .
+   The images, Data_Entry_2017.csv and papers could be downloaded at https://nihcc.app.box.com/v/ChestXray-NIHCC .
    

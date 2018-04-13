@@ -1,0 +1,38 @@
+This is an instruction on how to run the codes.
+
+
+1. Download data.
+First download the images and labels from  https://nihcc.app.box.com/v/ChestXray-NIHCC.
+Unzip all the images into a single folder named "images".
+Image titles and labels are initially saved in the csv file, Data_Entry_2017.csv.
+
+
+2. Spilt the dataset.
+Run split_step1_p3.py to split the data in Data_Entry_2017.csv to 3 datasets, generating train.csv (70%), val.csv (10%) and test.csv (20%).
+
+If you want to unsample some classes in the training dataset, run split_step2_p3.py. A new file named "resample_train.csv" would be generated.
+In the reported performance, we didn't perform the upsampling.
+
+3. Training.
+In "Xray_train.py", set variables "label_dir", "image_dir" and "weight_dir" to appropriate path. "lable_dir" is where the .csv files are saved. "image_dir" is where the folder "images" locates. "weight_dir" is where the trained neural network weights to be saved.
+
+Run Xray_train.py.
+
+4. Validation and Test.
+Run validation.py and pick the best trained model according to the AUROC.
+
+Set BEST_EPOCH in "test.py" to be the epoch of the best model picked. 
+Run test.py to get the AUROC on the test dataset. The result is reported in the table in "README.md".
+
+5. Heatmap
+Use notebook heatmaps.ipynb to generate heatmaps for input Xray images.
+There are two parts in the notebook, generating two different heatmaps with different size of heat regions.
+When running the notebook, be sure to change the path variables to be appropriate values in the begining of the notebook.
+
+6. Miscellaneous stuff
+ROC curves could be find in cam.ipynb.
+
+7. Folder "TwoStagedDenseNet"
+In this folder, a two staged densenet is implemented and these two stages are trained combinationally. 
+However the performance is not improved comparing to the model used outside the folder "TwoStagedDenseNet".
+The performace is roughly the same but not reported here.
