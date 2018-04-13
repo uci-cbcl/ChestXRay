@@ -22,7 +22,7 @@ Run Xray_train.py.
 Run validation.py and pick the best trained model according to the AUROC.
 
 Set BEST_EPOCH in "test.py" to be the epoch of the best model picked. 
-Run test.py to get the AUROC on the test dataset.
+Run test.py to get the AUROC on the test dataset. The result is reported in the table in "README.md".
 
 5. Heatmap
 Use notebook heatmaps.ipynb to generate heatmaps for input Xray images.
@@ -32,7 +32,7 @@ When running the notebook, be sure to change the path variables to be appropriat
 6. Miscellaneous stuff
 ROC curves could be find in cam.ipynb.
 
-7.TwoStagedDenseNet
-In this folder, a two staged densenet is implemented and these two stages are trained combinationally.
+7. Folder "TwoStagedDenseNet"
+In this folder, a two staged densenet is implemented and these two stages are trained combinationally. 
 However the performance is not improved comparing to the model used outside the folder "TwoStagedDenseNet".
-The performace is roughly the same.
+The performace is roughly the same but not reported here.
